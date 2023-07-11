@@ -1,71 +1,225 @@
-*{
-  margin:0;
+* {
+  margin: 0;
   padding: 0;
 }
-body{
+
+body {
   font-family: 'Open Sans', sans-serif;
 }
-.banner-container{
+
+.banner-container {
   display: flex;
   background-color: rgb(242, 183, 183);
   align-items: center;
-  width: 1900px;
-  height: 850px;
+  /* width: 1900px;
+  height: 850px; */
+
+
 }
-.banner-section{
+
+.banner-section {
   padding: 50px 100px;
 }
-.title{
+
+.title {
   font-size: 45px;
   padding-left: 100px;
 }
-.title-description{
+
+.title-description {
   padding-top: 35px;
   padding-bottom: 25px;
   padding-left: 100px;
 }
-.btn-primary{
-  font-size: 14px;
+
+.btn-primary {
+  font-size: 20px;
   background-color: rgba(235, 88, 115, 0.932);
   border-style: none;
-  padding: 15px 35px;
+  padding: 20px 43px;
   border-radius: 5px;
   color: white;
   font-weight: 200px;
   margin-left: 100px;
-  
-} 
-.img-style{
-/* align-items: center; */
-margin-right: 20px;
-margin-top: 50px;
-padding-right: 230px;
+
 }
-.feature-title{
+
+.img-style {
+  /* align-items: center; */
+  margin-right: 20px;
+  margin-top: 50px;
+  padding-right: 230px;
+}
+
+.feature-title {
   margin: auto;
-  padding-top:80px;
+  padding-top: 80px;
   align-items: center;
   text-align: center;
   font-size: 30px;
-  
+
 }
-.feature-description{
+
+.feature-description {
   text-align: center;
   width: 590px;
   height: 60px;
   margin: auto;
   padding: 20px
- 
 }
-.img-container{
+
+.img-container {
   display: flex;
-  background-color: pink;
-  
-  width: 300px;
-  height: 400px;
+  justify-content: space-between;
   align-items: center;
-  padding: 50px;
+  /* padding-bottom: 440px;
+  margin: auto; */
+}
+
+.img-1 {
+  /* display: flex; */
+  background-color: rgba(167, 33, 98, 0.15);
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  align-items: center;
+
+
+
+}
+
+.img-2 {
+  display: flex;
+  background-color: rgba(15, 232, 186, 0.199);
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+
+}
+
+.img-3 {
+  /* display: flex; */
+  background-color: rgba(71, 125, 17, .15);
+  width: 464px;
+  height: 338px;
+  align-items: center;
+  border-radius: 300px 300px 0px 0px;
+
+}
+
+.sale {
+  color: red;
+}
+
+.deal-container {
+  width: 1922px;
+  height: 620px;
+  background-color: rgba(167, 33, 98, 0.15);
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+  margin-top: 120px;
+  justify-content: space-between;
+
+}
+
+.flower-1f {
+  width: 328px;
+  height: 420;
+  margin-right: 539px;
+  margin: 100px, 100px;
+
+
+}
+
+.deal-title {
+  width: 537px;
+  height: 48px;
+  margin-left: 400px;
+  color: #272727;
+  font-size: 35px;
+  font-weight: 800;
+
+}
+
+.deal-description {
+  width: 590px;
+  height: 60px;
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin-left: 323px;
+  padding: 32px;
+  font-size: 18px;
+
+}
+
+.btn-2 {
+  font-size: 20px;
+  background-color: rgba(235, 88, 115, 0.932);
+  border-style: none;
+  padding: 20px 43px;
+  border-radius: 5px;
+  color: white;
+  margin-left: 610px;
+}
+
+.instagram-container {
+  /* align-items: center;
+          display: inline;
+          justify-content: center; */
+
+padding-top: 128px;
+  text-align: center;
+  /* justify-content: center; */
+
+
+
+
+}
+
+.instagram {
+  width: 180px;
+  height: 48px;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  color: #272727;
+  margin: 870px 128px 870px 28px;
+  
+}
+
+.insta-description {
+  width: 590px;
+  height: 60px;
+
+  display: flex;
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+padding-top: 10px;
+  font-size: 18px;
+  margin: 10px 660px;
+
+}
+.insta-flower-container{
  
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  /* margin: 27px 50px 220px 90px;
+   */
+padding: 20px 230px;
   
-  
-  }
+}
+
+.latest-container{
+ width: 1440px;
+ height: 449px;
+ background-image: url('../flower-shop-rhasan/Flower\ Asset/');
+}
+.l-title{
+  width: 373px;
+  height: 48px;
+
+}
